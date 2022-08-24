@@ -1,0 +1,6 @@
+framework module Pods_GB_ClearCodeTests {
+  umbrella header "Pods-GB.ClearCodeTests-umbrella.h"
+
+  export *
+  module * { export * }
+}

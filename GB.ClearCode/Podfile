@@ -1,0 +1,21 @@
+# Uncomment the next line to define a global platform for your project
+# platform :ios, '9.0'
+
+target 'GB.ClearCode' do
+  # Comment the next line if you don't want to use dynamic frameworks
+  use_frameworks!
+
+  # Pods for GB.ClearCode
+  pod 'Swinject'
+  pod 'Alamofire'
+
+  target 'GB.ClearCodeTests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
+  target 'GB.ClearCodeUITests' do
+    # Pods for testing
+  end
+
+end
