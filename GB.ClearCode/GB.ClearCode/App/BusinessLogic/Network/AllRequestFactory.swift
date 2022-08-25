@@ -35,12 +35,12 @@ protocol LogoutRequestFactory {
 
 protocol ChangeUserDataRequestFactory {
     func change(id: Int,
-                  userName: String,
-                  password: String,
-                  email: String,
-                  gender: String,
-                  creditCard: String,
-                  bio: String,
-                  completionHandler: @escaping
-               (AFDataResponse<ChangeUserDataResult>) -> Void)
+                userName: String,
+                password: String,
+                email: String,
+                gender: String,
+                creditCard: String,
+                bio: String,
+                completionHandler: @escaping
+                (AFDataResponse<ChangeUserDataResult>) -> Void)
 }

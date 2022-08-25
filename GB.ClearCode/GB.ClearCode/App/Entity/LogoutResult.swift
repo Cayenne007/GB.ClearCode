@@ -7,7 +7,6 @@
 
 import Foundation
 
-
 struct LogoutResult: Codable {
     var result: Int
     var errorMessage: String?
